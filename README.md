@@ -4,7 +4,7 @@
   
   the project is according to the http://blog.csdn.net/zxj942405301/article/details/72775463
 
-  the c++ faster-rcnn with matlab model see:https://github.com/zhanglaplace/Faster_rcnn_Cplusplus_vs2013
+  the c++ faster-rcnn with matlab model see:https://github.com/zhanglaplace/faster-rcnn-cplusplus2
 # Platform
 
 ## Windows
@@ -20,16 +20,15 @@
 	
 	make .
 	
-of course ,you shoule put your model and protoxt file in models directory
+Of course ,you shoule put your model and protoxt file in models directory
 
 # Caffe 
-	You should build caffe with RoiPooling layer and rpn_layer
+  You should build caffe with RoiPooling layer and rpn_layer
 	
 - rpn_layer
+	-add rpn_layer.cpp to $Caffe/src/caffe/layers/
 
--- add rpn_layer.cpp to $Caffe/src/caffe/layers/
-
--- add rpn_layer.hpp to $Caffe/include/caffe/layers/
+	-add rpn_layer.hpp to $Caffe/include/caffe/layers/
 
 - caffe.proto
 ```cpp
@@ -90,17 +89,16 @@ of course ,you shoule put your model and protoxt file in models directory
 # Result
   it's  cost much time the py-faster-rcnn
 In My compute(GTX1080Ti GPU) a picture of size(375\*500\*3)cost 361ms .
-
-![image](https://github.com/zhanglaplace/Faster_rcnn_Cplusplus_vs2013/blob/master/imgs/result_004545.jpg)
-![image](https://github.com/zhanglaplace/Faster_rcnn_Cplusplus_vs2013/blob/master/imgs/result_001150.jpg)
-![image](https://github.com/zhanglaplace/Faster_rcnn_Cplusplus_vs2013/blob/master/imgs/result_000456.jpg)
-![image](https://github.com/zhanglaplace/Faster_rcnn_Cplusplus_vs2013/blob/master/imgs/result_000542.jpg)
-![image](https://github.com/zhanglaplace/Faster_rcnn_Cplusplus_vs2013/blob/master/imgs/result_001763.jpg)
+![image](https://github.com/zhanglaplace/faster-rcnn-cplusplus2/blob/master/imgs/result_004545.jpg)
+![image](https://github.com/zhanglaplace/faster-rcnn-cplusplus2/blob/master/imgs/result_001150.jpg)
+![image](https://github.com/zhanglaplace/faster-rcnn-cplusplus2/blob/master/imgs/result_000456.jpg)
+![image](https://github.com/zhanglaplace/faster-rcnn-cplusplus2/blob/master/imgs/result_000542.jpg)
+![image](https://github.com/zhanglaplace/faster-rcnn-cplusplus2/blob/master/imgs/result_001763.jpg)
 
 
 # Something else
  
-	if it's helpful to you ,please give me a star thanks~
+  if it's helpful to you ,please give me a star thanks~
 
 
   
