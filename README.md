@@ -4,7 +4,7 @@
   
   the project is according to the http://blog.csdn.net/zxj942405301/article/details/72775463
 
-  the c++ faster-rcnn with matlab model see:https://github.com/zhanglaplace/faster-rcnn-cplusplus2
+  the c++ faster-rcnn with matlab model see:https://github.com/zhanglaplace/Faster_rcnn_Cplusplus_vs2013
 # Platform
 
 ## Windows
@@ -26,9 +26,9 @@ Of course ,you shoule put your model and protoxt file in models directory
   You should build caffe with RoiPooling layer and rpn_layer
 	
 - rpn_layer
-	-add rpn_layer.cpp to $Caffe/src/caffe/layers/
+	- add rpn_layer.cpp to $Caffe/src/caffe/layers/
 
-	-add rpn_layer.hpp to $Caffe/include/caffe/layers/
+	- add rpn_layer.hpp to $Caffe/include/caffe/layers/
 
 - caffe.proto
 ```cpp
