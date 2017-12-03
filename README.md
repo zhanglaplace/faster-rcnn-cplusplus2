@@ -89,12 +89,12 @@ Of course ,you shoule put your model and protoxt file in models directory
 # Result
   it's  cost much time the py-faster-rcnn
 In My compute(GTX1080Ti GPU) a picture of size(375\*500\*3)cost 361ms .
+![image](https://github.com/zhanglaplace/faster-rcnn-cplusplus2/blob/master/imgs/speed.png)
 ![image](https://github.com/zhanglaplace/faster-rcnn-cplusplus2/blob/master/imgs/result_004545.jpg)
 ![image](https://github.com/zhanglaplace/faster-rcnn-cplusplus2/blob/master/imgs/result_001150.jpg)
 ![image](https://github.com/zhanglaplace/faster-rcnn-cplusplus2/blob/master/imgs/result_000456.jpg)
 ![image](https://github.com/zhanglaplace/faster-rcnn-cplusplus2/blob/master/imgs/result_000542.jpg)
 ![image](https://github.com/zhanglaplace/faster-rcnn-cplusplus2/blob/master/imgs/result_001763.jpg)
-
 
 # Something else
  
